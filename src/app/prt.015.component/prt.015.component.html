@@ -1,0 +1,12 @@
+<hr>
+<p>PRT.015</p>
+<hr>
+<p [innerText] = " 'second step emitter: ' + attr01" ></p>
+<p [innerText] = " 'second step emitter: ' + attr02" ></p>
+<p [innerText] = " 'second step emitter: ' + attr03" ></p>
+<p [innerText] = " 'second step emitter: ' + attr04" ></p>
+
+
+<app-prt-016 [inputData]="inputData" (firstParentEmitter)="manageEmitter($event)"></app-prt-016>
+
+<p></p>

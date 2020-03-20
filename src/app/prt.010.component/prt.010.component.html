@@ -1,0 +1,15 @@
+<hr>
+<h1>Working with objects (2)</h1>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Description</td>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.description }}</td>
+    </tr>
+</table>

@@ -1,0 +1,22 @@
+<hr>
+<h1>Working with arrays & Event Binding (3)</h1>
+<table>
+    <tr>
+        <td><button (click)="changeIndex(-1)">&lt;</button></td>
+        <td><button (click)="changeIndex(+1)">&gt;</button></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>{{ products[idx][0] }}</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>{{ products[idx][1] }}</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>{{ products[idx][2] }}</td>
+    </tr>
+</table>

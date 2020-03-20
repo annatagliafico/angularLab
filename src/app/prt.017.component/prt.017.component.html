@@ -1,0 +1,17 @@
+<hr>
+<p>PRT.017</p>
+<hr>
+
+<p [innerText] = " 'attr01: ' + attr01" ></p>
+<p [innerText] = " 'attr02: ' + attr02" ></p>
+<p [innerText] = " 'attr03: ' + attr03" ></p>
+<p [innerText] = " 'attr04: ' + attr04" ></p>
+
+<input [(ngModel)]="attr01"><br>
+<input [(ngModel)]="attr02"><br>
+<input [(ngModel)]="attr03"><br>
+<input [(ngModel)]="attr04"><br>
+<button (click)="sendMessageToParent()">Send to Parent</button>
+
+<hr>
+<hr>

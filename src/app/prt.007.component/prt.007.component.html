@@ -1,0 +1,15 @@
+<hr>
+<h1>Angular directives - ngFor</h1>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Description</td>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>{{ product[0] }}</td>
+        <td>{{ product[1] }}</td>
+        <td>{{ product[2] }}</td>
+    </tr>
+</table>

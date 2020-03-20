@@ -1,0 +1,7 @@
+<hr>
+<h1>Interpolation and Property binding</h1>
+<p>Here follows interpolation with an attribute value: <i><b>{{ textForInterpolation }}</b></i></p>
+<p>Here follows interpolation with a text returned by a method: <i><b>{{ getTextForInterpolation() }}</b></i></p><br>
+
+<p [innerText]="'Here follows property binding with an attribute value: ' + textForPropertyBinding"></p>
+<p [innerText]="'Here follows property binding with a text returned by a method: ' + getTextForPropertyBinding()"></p><br>

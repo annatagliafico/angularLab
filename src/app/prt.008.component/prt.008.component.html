@@ -1,0 +1,17 @@
+<hr>
+<h1>Angular directives - ngIf</h1>
+<p>(with ngFor and event binding)</p>
+<br>
+<button (click)="toggleTable()">Show/Hide Table</button>
+<table *ngIf="showTable">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Description</td>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>{{ product[0] }}</td>
+        <td>{{ product[1] }}</td>
+        <td>{{ product[2] }}</td>
+    </tr>
+</table>
