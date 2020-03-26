@@ -31,8 +31,11 @@ import { Prt017Component } from './prt.017.component/prt.017.component';
 import { Prt018Component } from './prt.018.component/prt.018.component';
 import { Prt019Component } from './prt.019.component/prt.019.component';
 import { Prt020Component } from './prt.020.component/prt.020.component';
-import { ChildComponent } from './prt.020.component/child.component/child.component';
+import { ChildPrt020Component } from './prt.020.component/childprt020.component/childprt020.component';
 import { Prt021Component } from './prt.021.component/prt.021.component';
+import { Prt022Component } from './prt.022.component/prt.022.component';
+import { ChildPrt022Component } from './prt.022.component/childprt022.component/childprt022.component';
+import { GranChildComponent } from './prt.022.component/granchild.component/granchild.component';
 
 @NgModule({
   declarations: [
@@ -59,8 +62,11 @@ import { Prt021Component } from './prt.021.component/prt.021.component';
     Prt018Component,
     Prt019Component,
     Prt020Component,
-    ChildComponent,
-    Prt021Component
+    ChildPrt020Component,
+    Prt021Component,
+    Prt022Component,
+    ChildPrt022Component,
+    GranChildComponent
   ],
   imports: [
     BrowserModule,

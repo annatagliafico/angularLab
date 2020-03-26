@@ -1,5 +1,5 @@
 import { Component, ViewChild} from '@angular/core';
-import { ChildComponent } from './child.component/child.component';
+import { ChildPrt020Component } from './childprt020.component/childprt020.component';
 
 @Component({
     selector: 'app-prt-020',
@@ -7,7 +7,7 @@ import { ChildComponent } from './child.component/child.component';
 })
 export class Prt020Component
 {
-    @ViewChild(ChildComponent,{static: false}) child : ChildComponent;
+    @ViewChild(ChildPrt020Component,{static: false}) child : ChildPrt020Component;
 
     constructor(){}
 

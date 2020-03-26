@@ -11,7 +11,7 @@ export class Prt021Component{
 
     constructor()
     {
-/*         let ob = new Observable( observer =>{ //new Observable : crea una sequenza di dati che determina lo stream
+/*          let ob = new Observable( observer =>{ //new Observable : crea una sequenza di dati che determina lo stream
             let i=0;
             setInterval(() => 
             {
