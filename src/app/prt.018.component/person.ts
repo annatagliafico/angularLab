@@ -1,5 +1,5 @@
 
-export class Persona{
+export class Person{
     nome : string;
     cognome : string;
     eta : number;

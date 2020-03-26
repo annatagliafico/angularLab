@@ -1,5 +1,5 @@
-import { Component, Input} from '@angular/core';
-import { Persona } from './persona';
+import { Component} from '@angular/core';
+import { Person } from './person';
 
 @Component({
     selector: 'app-prt-018',
@@ -7,13 +7,13 @@ import { Persona } from './persona';
 })
 export class Prt018Component
 {	
-    firstPerson : Persona;
-    secondPerson : Persona[] = [];
+    firstPerson : Person;
+    secondPerson : Person[] = [];
     
     ngOnInit(){
-        this.firstPerson = new Persona("firstNome", "firstCognome", 30);
-        this.secondPerson.push(new Persona("secondName", "secondSurname", 31));
-        this.secondPerson.push(new Persona("NameTwo", "SurnameTwo", 32));
+        this.firstPerson = new Person("firstNome", "firstCognome", 30);
+        this.secondPerson.push(new Person("secondName", "secondSurname", 31));
+        this.secondPerson.push(new Person("NameTwo", "SurnameTwo", 32));
 
     }
 

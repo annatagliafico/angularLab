@@ -19,6 +19,8 @@ import { Prt015Component } from './prt.015.component/prt.015.component';
 import { Prt016Component } from './prt.016.component/prt.016.component';
 import { Prt017Component } from './prt.017.component/prt.017.component';
 import { Prt018Component } from './prt.018.component/prt.018.component';
+import { Prt019Component } from './prt.019.component/prt.019.component';
+import { Prt020Component } from './prt.020.component/prt.020.component';
 
 const routes: Routes = [
     { path: 'prt001', component: Prt001Component },
@@ -39,7 +41,9 @@ const routes: Routes = [
     { path: 'prt015', component: Prt015Component },
     { path: 'prt016', component: Prt016Component },
     { path: 'prt017', component: Prt017Component },
-    { path: 'prt018', component: Prt018Component }
+    { path: 'prt018', component: Prt018Component },
+    { path: 'prt019', component: Prt019Component },
+    { path: 'prt020', component: Prt020Component }
 
 ];
 
