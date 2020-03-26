@@ -32,6 +32,7 @@ import { Prt018Component } from './prt.018.component/prt.018.component';
 import { Prt019Component } from './prt.019.component/prt.019.component';
 import { Prt020Component } from './prt.020.component/prt.020.component';
 import { ChildComponent } from './prt.020.component/child.component/child.component';
+import { Prt021Component } from './prt.021.component/prt.021.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { ChildComponent } from './prt.020.component/child.component/child.compon
     Prt018Component,
     Prt019Component,
     Prt020Component,
-    ChildComponent
+    ChildComponent,
+    Prt021Component
   ],
   imports: [
     BrowserModule,
