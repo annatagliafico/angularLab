@@ -9,8 +9,10 @@ export class Prt019Component
 {
     first: string;
     last: string;	
+    persons : Person[];
+    
     ngOnInit(){
-        let persons = [
+        this.persons = [
             new Person(),
             new Person({name:"Joe"}),
             new Person({
@@ -25,7 +27,7 @@ export class Prt019Component
             new Person(new Person({name:"Joe"})) //shallow clone
         ]; 
         
-        console.error(persons);
+        console.error(this.persons);
     }
 
 }

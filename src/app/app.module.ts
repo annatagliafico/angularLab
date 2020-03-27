@@ -36,6 +36,9 @@ import { Prt021Component } from './prt.021.component/prt.021.component';
 import { Prt022Component } from './prt.022.component/prt.022.component';
 import { ChildPrt022Component } from './prt.022.component/childprt022.component/childprt022.component';
 import { GranChildComponent } from './prt.022.component/granchild.component/granchild.component';
+import { Prt023Component } from './prt.023.component/prt.023.component';
+import { HomeComponent } from './prt.023.component/home/home.component';
+import { UserComponent } from './prt.023.component/user/user.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +69,11 @@ import { GranChildComponent } from './prt.022.component/granchild.component/gran
     Prt021Component,
     Prt022Component,
     ChildPrt022Component,
-    GranChildComponent
+    GranChildComponent,
+
+    Prt023Component,
+    HomeComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

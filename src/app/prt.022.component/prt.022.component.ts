@@ -12,7 +12,8 @@ export class SharedService /*servizio che mette in comunicazione i vari componen
 @Component({
     selector  : 'app-prt-022', /*al click su button, viene inviato un dato nello stream child, sottoscritto
                                  dai due componenti figli ChildPrt022Component e GranChildComponent*/
-    template  : `<button (click)="sendHello()">Click</button> 
+    template  : `<p>Subscribe child and granchild</p>
+                <button (click)="sendHello()">Click</button> 
                 <app-childprt022></app-childprt022>
                 <app-granchild></app-granchild>`,
     providers : [SharedService]
