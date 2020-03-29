@@ -26,6 +26,7 @@ import { Prt022Component } from './prt.022.component/prt.022.component';
 import { Prt023Component } from './prt.023.component/prt.023.component';
 import { HomeComponent } from './prt.023.component/home/home.component';
 import { UserComponent } from './prt.023.component/user/user.component';
+import { Prt024Component } from './prt.024.component/prt.024.component';
 
 const routes: Routes = [
     { path: 'prt001', component: Prt001Component },
@@ -54,7 +55,8 @@ const routes: Routes = [
     { path: 'prt023', component: Prt023Component, children : [
         {path: 'home', component: HomeComponent},
         {path: 'user/:id', component: UserComponent}
-    ] }, 
+    ] },
+    { path: 'prt024', component: Prt024Component },
 
 ];
 

@@ -39,6 +39,9 @@ import { GranChildComponent } from './prt.022.component/granchild.component/gran
 import { Prt023Component } from './prt.023.component/prt.023.component';
 import { HomeComponent } from './prt.023.component/home/home.component';
 import { UserComponent } from './prt.023.component/user/user.component';
+import { Prt024Component } from './prt.024.component/prt.024.component';
+import { BasicHighlightDirective } from './prt.024.component/basic-highlight/basic-highlight.directive';
+import { BetterHighlightDirective } from './prt.024.component/better-highlight/better-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -67,13 +70,18 @@ import { UserComponent } from './prt.023.component/user/user.component';
     Prt020Component,
     ChildPrt020Component,
     Prt021Component,
+    
     Prt022Component,
     ChildPrt022Component,
     GranChildComponent,
 
     Prt023Component,
     HomeComponent,
-    UserComponent
+    UserComponent,
+
+    Prt024Component,
+    BasicHighlightDirective,
+    BetterHighlightDirective
   ],
   imports: [
     BrowserModule,
