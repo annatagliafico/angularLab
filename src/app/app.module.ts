@@ -42,6 +42,7 @@ import { UserComponent } from './prt.023.component/user/user.component';
 import { Prt024Component } from './prt.024.component/prt.024.component';
 import { BasicHighlightDirective } from './prt.024.component/basic-highlight/basic-highlight.directive';
 import { BetterHighlightDirective } from './prt.024.component/better-highlight/better-highlight.directive';
+import { UnlessDirective } from './prt.024.component/unless.directive';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { BetterHighlightDirective } from './prt.024.component/better-highlight/b
 
     Prt024Component,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
