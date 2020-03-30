@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { UserService } from '../user.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { UserService } from '../user.service';
 export class UserComponent implements OnInit {
     id: number;
 
-    constructor(private route: ActivatedRoute, private userService : UserService) {
+    constructor(private route: ActivatedRoute, private userService : UserService, private router: Router) {
     }
 
     ngOnInit() 
@@ -25,6 +25,13 @@ export class UserComponent implements OnInit {
     {
         // this.userService.activatedEmitter.emit(true);
         this.userService.activatedEmitter.next(true);
+    }
+
+    onReloadPage()
+    {
+        this.router.navigate(['prt023/user', this.id]);
+        console.error('ricaricato');
+        console.error(this.id);
     }
     
 }
