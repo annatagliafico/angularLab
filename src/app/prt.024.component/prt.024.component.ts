@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-prt-024',
   templateUrl: './prt.024.component.html',
   styleUrls: ['./prt.024.component.scss']
 })

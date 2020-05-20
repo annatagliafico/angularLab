@@ -10,6 +10,7 @@ export class Prt011Component implements OnInit
 {
     products: any[] = [];
     // products: Product[] = [];
+    prod : any[] = [];
 
     constructor(private productSrvc: ProductClientService) { }
 
@@ -20,6 +21,15 @@ export class Prt011Component implements OnInit
             {
                 console.log(data);
                 this.products = data;
+            }
+        )
+
+        this.productSrvc.getProduct(3).subscribe(
+            (data: any[]) =>
+            {
+                console.log(data);
+                this.prod = data;
+                console.info(this.prod);
             }
         )
     }
